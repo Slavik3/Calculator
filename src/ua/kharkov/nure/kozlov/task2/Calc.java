@@ -21,10 +21,7 @@ public class Calc extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
 	 *      response)
 	 */
-	protected void doGet(HttpServletRequest request,
-			HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-	}
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { }
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
@@ -36,12 +33,8 @@ public class Calc extends HttpServlet {
 		
 		response.setContentType("application/json");
 		response.setHeader("Cache-Control", "nocache");
-        	response.setCharacterEncoding("utf-8");
+        response.setCharacterEncoding("utf-8");
 
-
-	
-		
-		
 		Float operator1 = null;
 		Float operator2 = null;
 		String operation = null;
